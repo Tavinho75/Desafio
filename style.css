@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+main { 
+    background-color: #000;
+    color: white;
+    width: 480px;
+    height: 480px;
+    border: 2px solid white;
+}
+
+body.vortar {
+    background-color: #ffffff;
+}
+
+main.VcmAcho { 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 480px;
+    height: 480px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+a.Vortar {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 0.7em;
+}
+
+a.Vortar:hover {
+    color: rgb(0, 0, 0);
+}
+
+.Vortar {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 0.9em;
+}
+
+.Vortar:hover {
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 0.7em;
+}
+
+a:hover {
+    color: white;
+}
+
+.bt {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 0.9em;
+}
+
+.bt:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.v {
+    position: absolute;
+    top: 60vh;
+    right: 6vw;
+}
+
+.f1 {
+    position: absolute;
+    top: 15vh;
+    right: 10vw;
+}
+
+.f2 {
+    position: absolute;
+    top: 8vh;
+    right: 70vw;
+}
+
+.f3 {
+    position: absolute;
+    top: 25vh;
+    right: 60vw;
+}
+
+.f4 {
+    position: absolute;
+    top: 50vh;
+    right: 50vw;
+}
+
+.f5 {
+    position: absolute;
+    top: 30vh;
+    right: 80vw;
+}
+
+.f6 {
+    position: absolute;
+    top: 60vh;
+    right: 50vw;
+}
+
+.f7 {
+    position: absolute;
+    top: 40vh;
+    right: 40vw;
+}
+
+.f8 {
+    position: absolute;
+    top: 36vh;
+    right: 50vw;
+}
